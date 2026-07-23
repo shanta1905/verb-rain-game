@@ -11,10 +11,10 @@
   <main class="app-shell">
     <section id="startScreen" class="panel start-panel">
       <div class="brand-badge">VERB RAIN</div>
-      <h1>Atrapa la forma correcta</h1>
+      <h1>Selecciona la forma correcta</h1>
       <p class="lead">
-        Mueve la canasta y atrapa el <strong>Simple Past</strong> o el
-        <strong>Past Participle</strong> del verbo mostrado.
+        Haz clic o toca el <strong>Simple Past</strong> o el
+        <strong>Past Participle</strong> correcto mientras las palabras caen.
       </p>
 
       <div class="settings-card">
@@ -36,19 +36,19 @@
 
       <div class="instructions-grid">
         <article>
-          <span class="instruction-icon">⌨️</span>
-          <h2>Teclado</h2>
-          <p>Usa ← y → o las teclas A y D.</p>
-        </article>
-        <article>
           <span class="instruction-icon">🖱️</span>
-          <h2>Mouse</h2>
-          <p>Mueve el cursor dentro del área de juego.</p>
+          <h2>Computadora</h2>
+          <p>Haz clic directamente sobre la palabra correcta.</p>
         </article>
         <article>
           <span class="instruction-icon">📱</span>
-          <h2>Pantalla táctil</h2>
-          <p>Desliza el dedo para mover la canasta.</p>
+          <h2>Celular o tablet</h2>
+          <p>Toca la palabra correcta antes de que llegue al suelo.</p>
+        </article>
+        <article>
+          <span class="instruction-icon">⏸️</span>
+          <h2>Pausa</h2>
+          <p>Usa el botón de pausa, la barra espaciadora o Esc.</p>
         </article>
       </div>
     </section>
@@ -75,7 +75,7 @@
       </div>
 
       <section class="prompt-card">
-        <p id="formPrompt" class="form-prompt">Atrapa el Simple Past de:</p>
+        <p id="formPrompt" class="form-prompt">Selecciona el Simple Past de:</p>
         <h2 id="infinitiveValue">GO</h2>
         <p id="feedbackText" class="feedback-text">Prepárate…</p>
       </section>
@@ -88,14 +88,7 @@
           <strong>Juego en pausa</strong>
           <span>Presiona continuar para seguir.</span>
         </div>
-        <div id="basket" class="basket" aria-label="Canasta">
-          <span>🧺</span>
-        </div>
-      </div>
-
-      <div class="mobile-controls" aria-label="Controles táctiles">
-        <button id="leftButton" type="button" aria-label="Mover a la izquierda">◀</button>
-        <button id="rightButton" type="button" aria-label="Mover a la derecha">▶</button>
+        <p class="arena-help">Haz clic o toca una palabra</p>
       </div>
     </section>
 
